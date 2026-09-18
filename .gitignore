@@ -1,0 +1,19 @@
+# Dataset — download from Mendeley
+data/
+*.zip
+
+# Checkpoints and exported models — reproducible from the notebook
+models/
+*.pth
+*.pt
+*.onnx
+*.tflite
+
+# Python
+__pycache__/
+*.py[cod]
+venv/
+.ipynb_checkpoints/
+
+# Credentials
+.env
